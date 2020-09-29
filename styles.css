@@ -22,3 +22,9 @@ body {
 .nav-link:hover {
     color: #6DD5FA
 }
+
+@media (min-width: 768px) {
+    #faceImg {
+        display: none;
+    }
+}
