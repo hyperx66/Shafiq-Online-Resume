@@ -27,6 +27,15 @@ body {
     border-radius: 0px;
 }
 
+.btn {
+    background-image: linear-gradient(to left, #2980B9, #6DD5FA);
+    border: none
+}
+
+.btn:hover {
+    background-image: linear-gradient(to left, #1f6999, #5ab2d1);
+}
+
 @media (max-width: 768px) {
     #faceImg {
         width: 200px;
@@ -44,5 +53,8 @@ body {
     .card {
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
+    }
+    .btn {
+        width: 93%
     }
 }
