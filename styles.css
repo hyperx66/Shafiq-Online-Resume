@@ -23,7 +23,7 @@ body {
     color: #6DD5FA
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     #faceImg {
         display: none;
     }
