@@ -23,8 +23,26 @@ body {
     color: #6DD5FA
 }
 
+.card {
+    border-radius: 0px;
+}
+
 @media (max-width: 768px) {
     #faceImg {
-        display: none;
+        width: 200px;
+        border-top-left-radius: 50% 50%;
+        border-top-right-radius: 50% 50%;
+        border-bottom-right-radius: 50% 50%;
+        border-bottom-left-radius: 50% 50%;
+        margin-top: 5%;
+        margin-bottom: 5%
+    }
+    .container {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .card {
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
     }
 }
